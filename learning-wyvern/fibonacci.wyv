@@ -1,0 +1,20 @@
+require stdout
+
+
+def thing(x:Int): Unit
+    def recurse(x:Int): Unit
+        def trueCase(): Unit
+            stdout.printInt(x)
+            stdout.println()
+            recurse(x-1)
+        def falseCase(): Unit
+            stdout.print("end")
+            stdout.println()
+        (x > 0).ifTrue(
+            () => trueCase(),
+            () => falseCase()
+        )
+            
+    recurse(x)
+
+thing(3)
