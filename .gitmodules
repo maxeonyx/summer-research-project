@@ -1,0 +1,3 @@
+[submodule "wyvern"]
+	path = wyvern
+	url = ssh://git@github.com/wyvernlang/wyvern
