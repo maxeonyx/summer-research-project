@@ -1,3 +1,10 @@
+# Summer Research Project - Integrating purity-checked java code with Wyvern
+
+## Setting up this project
+
+- Clone with submodules - Wyvern is included as a submodule.
+- Unzip the checker-framework zip file into a top-level folder with the same name
+
 ## Setting up Wyvern with IntelliJ
 
  - Open main folder with IntelliJ
@@ -8,5 +15,5 @@
  - Add the new .eml file to ".git/info/exclude"
  - Right click on wyvern/tools/build.xml and Add as Ant file.
  - Run the main ant task (copper-generate) and arch-parsers.
- - Right click on the top-level folder and Reload From Disk
+ - Right click on the top-level wyvern folder and Reload From Disk
  - Build wyvern-tools
