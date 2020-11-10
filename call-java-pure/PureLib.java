@@ -4,7 +4,7 @@ public class PureLib {
 
     public static final PureLib lib = new PureLib();
 
-    public @Pure String getMessageSound() {
+    public @Pure String getMessage() {
         return "Message from Purity-checked java.";
     }
 

@@ -1,9 +1,0 @@
-require stdout
-
-import java:PureLib.lib
-
-stdout.print(lib.getMessageSound())
-stdout.println()
-
-stdout.print(lib.getMessageUnsound())
-stdout.println()

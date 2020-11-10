@@ -1,0 +1,6 @@
+require stdout
+
+import java:PureLib.lib
+
+stdout.print(lib.getMessage())
+stdout.println()

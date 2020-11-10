@@ -2,7 +2,7 @@
 
 # Compile a java program with the checker framework
 
-CHECKERFRAMEWORK=./checker-framework-3.7.1
+CHECKERFRAMEWORK=../checker-framework-3.7.1
 
 
 javac \
