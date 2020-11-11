@@ -7,6 +7,8 @@ WYV_CLASSPATH="$CP_HOME/tools/build:$CP_HOME/tools/bin:$CP_HOME/tools/lib/Copper
 
 WYV_CLASSPATH="$WYV_CLASSPATH:$PWD"
 
+WYV_CLASSPATH="$WYV_CLASSPATH:../checker-framework-3.7.1/checker/dist/checker-qual.jar"
+
 echo $WYV_CLASSPATH
 echo $WYVERN_HOME
 
