@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Purity Checker" enabled="true">
+        <option name="checkPurityAnnotations" value="" />
+        <processor name="org.checkerframework.framework.util.PurityChecker" />
+        <module name="demo-lib" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

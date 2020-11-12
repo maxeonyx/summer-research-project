@@ -1,7 +1,0 @@
-require stdout
-require java
-
-import java:Lib.lib
-
-stdout.print(lib.getMessage())
-stdout.println()

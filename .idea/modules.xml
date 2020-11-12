@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo-lib/demo-lib.iml" filepath="$PROJECT_DIR$/demo-lib/demo-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/srp.iml" filepath="$PROJECT_DIR$/.idea/srp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wyvern/tools/wyvern-tools.iml" filepath="$PROJECT_DIR$/wyvern/tools/wyvern-tools.iml" />
+    </modules>
+  </component>
+</project>
