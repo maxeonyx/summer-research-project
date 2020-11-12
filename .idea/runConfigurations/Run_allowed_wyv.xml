@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run allowed.wyv" type="Application" factoryName="Application">
+    <envs>
+      <env name="WYVERN_HOME" value="./wyvern" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="wyvern.tools.Interpreter" />
+    <module name="srp" />
+    <option name="PROGRAM_PARAMETERS" value="./call-java-pure/allowed.wyv" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
