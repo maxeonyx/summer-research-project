@@ -1,0 +1,7 @@
+module def systemuser(): {}
+
+import systemtest
+
+val st = systemtest()
+
+st.barmethod()

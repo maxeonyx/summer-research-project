@@ -1,6 +1,0 @@
-require stdout
-
-import java:ImpureLib.lib
-
-stdout.print(lib.getMessage())
-stdout.println()

@@ -1,0 +1,4 @@
+module def systemtest()
+
+def barmethod(): {system.FFI} String
+    "asdf"
