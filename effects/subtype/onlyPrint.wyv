@@ -1,0 +1,13 @@
+module def onlyPrint(stdout: Stdout): {stdout.print}
+
+import ffiModA
+import ffiModB
+
+val a = ffiModA()
+val b = ffiModB()
+
+stdout.print(a.get_string())
+stdout.println()
+stdout.print(b.get_string())
+stdout.println()
+

@@ -1,0 +1,8 @@
+module def lib(): {}
+
+def a(): {system.FFI} Unit
+  b()
+
+def b(): {system.FFI2} Unit
+  unit
+

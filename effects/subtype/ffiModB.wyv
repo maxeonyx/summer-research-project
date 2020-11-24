@@ -1,0 +1,4 @@
+module def ffiModB(): {}
+
+def get_string(): {system.FFI} String
+    "asdf b"

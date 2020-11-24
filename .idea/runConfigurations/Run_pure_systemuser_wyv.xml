@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run pure/systemuser.wyv" type="Application" factoryName="Application">
+    <envs>
+      <env name="WYVERN_HOME" value="../wyvern" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="wyvern.tools.Interpreter" />
+    <module name="srp" />
+    <option name="PROGRAM_PARAMETERS" value="./systemuser.wyv" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pure" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,3 @@
+resource type ModB
+    effect b
+    def get_string(): {this.b} String
