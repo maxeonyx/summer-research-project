@@ -1,0 +1,7 @@
+require stdout
+
+def f(): {system.FFI} Unit
+  stdout.print("asdf")
+  stdout.println()
+
+f()

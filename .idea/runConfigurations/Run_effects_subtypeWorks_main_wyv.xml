@@ -1,12 +1,12 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Run effects/subtype/main.wyv" type="Application" factoryName="Application">
+  <configuration default="false" name="Run effects/subtypeWorks/main.wyv" type="Application" factoryName="Application">
     <envs>
       <env name="WYVERN_HOME" value="../../wyvern" />
     </envs>
     <option name="MAIN_CLASS_NAME" value="wyvern.tools.Interpreter" />
     <module name="srp" />
     <option name="PROGRAM_PARAMETERS" value="./main.wyv" />
-    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/effects/subtype" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/effects/subtypeWorks" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>

@@ -1,0 +1,16 @@
+import libA
+import libB
+import deep.libC
+
+val a = libA()
+val b = libB()
+val c = libC()
+
+def subtype1(): {a.effectA} Unit
+  b.callLib()
+
+def subtype2(): {b.effectB} Unit
+  c.callLib()
+
+def subtype3(): {c.effectC} Unit
+  a.callLib()

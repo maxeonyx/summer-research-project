@@ -1,0 +1,9 @@
+require stdout
+
+def ffi1(): {system.FFI} Unit
+  print1()
+
+def print1(): {stdout.print} Unit
+  unit
+
+ffi1()

@@ -1,0 +1,6 @@
+import libA
+import libB
+
+val a = libA()
+val b = libB()
+

@@ -1,0 +1,9 @@
+module def libA(): {}
+
+effect effectA = {system.FFI}
+
+def f(): {system.FFI} Unit
+  unit
+
+def callLib(): {effectA} Unit
+  f()

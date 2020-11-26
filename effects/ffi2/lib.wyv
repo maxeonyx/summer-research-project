@@ -1,8 +1,14 @@
 module def lib(): {}
 
+effect thisLibEffect = {system.FFI, system.FFI2}
+
 def a(): {system.FFI} Unit
-  b()
+  unit
 
 def b(): {system.FFI2} Unit
   unit
+
+def callLib(): {thisLibEffect} Unit
+  a()
+  b()
 

@@ -2,4 +2,4 @@ import lib
 
 val l = lib()
 
-l.a()
+l.callLib()
