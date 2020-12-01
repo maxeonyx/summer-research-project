@@ -1,0 +1,5 @@
+require java
+
+import java:demo.libs.UserLib.lib
+
+effect testEffect = lib.doThingEffect

@@ -1,3 +1,5 @@
+package demo.pure;
+
 import org.checkerframework.dataflow.qual.*;
 
 public class PureLib {

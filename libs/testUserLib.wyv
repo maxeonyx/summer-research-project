@@ -1,0 +1,15 @@
+// User lib requires java (/ platform?) capability to import Java code.
+
+module def userLib(java: Java): {}
+
+import java:demo.libs.UserLib.lib
+
+val lib2 = lib
+
+effect test = {lib.doThingEffect}
+
+def doThing(): {lib2.doThingEffect} Unit
+  unit
+
+def doOtherThing(): {lib2.doOtherThingEffect} Unit
+  unit

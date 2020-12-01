@@ -1,0 +1,8 @@
+require java
+
+import java:demo.libs.UserLib.lib
+
+def doThing(): {lib.doThingEffect} Unit
+  unit
+
+

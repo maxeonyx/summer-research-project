@@ -1,0 +1,13 @@
+require java
+require stdout
+
+import platformLibA
+import platformLibB
+
+val libA = platformLibA(java)
+val libB = platformLibB(java)
+
+def read2(): {libA.filesystemRead} String
+  libA.readAll() + " & " + libB.readAll()
+
+stdout.print(read2())

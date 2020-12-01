@@ -1,4 +1,4 @@
-import org.checkerframework.dataflow.qual.*;
+package demo.pure;
 
 public class ImpureLib {
 

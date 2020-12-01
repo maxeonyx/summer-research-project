@@ -1,0 +1,8 @@
+// Example platform-specific interface (implementations require platform capability to import)
+
+resource type PlatformInterface
+  effect filesystemWrite
+  effect filesystemRead
+  def write(data: String, location: Int): {this.filesystemWrite} Unit
+  def writeAll(data: String): {this.filesystemWrite} Unit
+  def readAll(): {this.filesystemRead} String

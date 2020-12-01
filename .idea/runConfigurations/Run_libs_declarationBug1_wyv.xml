@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run libs/declarationBug1.wyv" type="Application" factoryName="Application">
+    <envs>
+      <env name="WYVERN_HOME" value="../wyvern" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="wyvern.tools.Interpreter" />
+    <module name="srp" />
+    <option name="PROGRAM_PARAMETERS" value="./declarationBug1.wyv" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libs" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

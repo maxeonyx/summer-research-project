@@ -1,0 +1,8 @@
+module def declarationBug2(java: Java)
+
+import java:demo.libs.UserLib.lib
+
+def doThing(): {lib.doThingEffect} Unit
+  unit
+
+

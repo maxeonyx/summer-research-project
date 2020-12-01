@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/demo-lib/demo-lib.iml" filepath="$PROJECT_DIR$/demo-lib/demo-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/srp.iml" filepath="$PROJECT_DIR$/.idea/srp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/wyvern-tools.iml" filepath="$PROJECT_DIR$/.idea/wyvern-tools.iml" />
     </modules>

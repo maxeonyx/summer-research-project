@@ -1,0 +1,7 @@
+require java
+
+import java:demo.libs.UserLib.lib
+
+val lib2 = lib
+
+effect testEffect = lib2.doThingEffect

@@ -8,7 +8,7 @@
 
 ### Project dependencies
 - Wyvern code demos (allowed.wyv, not-allowed.wyv)
-    - Java code (PureLib.java, ImpureLib.java)
+    - Java code (demo.pure.PureLib.java, demo.pure.ImpureLib.java)
         - Javac with checker processor
         - checker-qual.jar
     - Wyvern compiler (wyvern-tools)

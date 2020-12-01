@@ -1,0 +1,15 @@
+module def platformLibB(java: Java): {} PlatformInterface
+
+import java:demo.libs.PlatformLibB.lib
+
+effect filesystemWrite = {lib.writeEffect, lib.writeAllEffect}
+effect filesystemRead = {lib.readAllEffect}
+
+def write(data: String, location: Int): {filesystemWrite} Unit
+  lib.write(data, location)
+
+def writeAll(data: String): {filesystemWrite} Unit
+  lib.writeAll(data)
+
+def readAll(): {filesystemRead} String
+  lib.readAll()

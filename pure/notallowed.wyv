@@ -1,5 +1,5 @@
 module def notallowed(): {}
 
-import java:ImpureLib.lib
+import java:demo.pure.ImpureLib.lib
 
 lib.getMessage()

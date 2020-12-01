@@ -1,0 +1,5 @@
+// Example platform-independent interface (do not require platform capability to import, because it is assumed present)
+
+resource type AgnosticInterface
+  effect log
+  def log(data: String): {this.log} Unit
