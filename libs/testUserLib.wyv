@@ -11,5 +11,9 @@ effect test = {lib.doThingEffect}
 def doThing(): {lib2.doThingEffect} Unit
   unit
 
-def doOtherThing(): {lib2.doOtherThingEffect} Unit
-  unit
+val stuffContainer = lib2.makeObject()
+
+def getStuff(): {} Int
+  stuffContainer.getStuff()
+
+

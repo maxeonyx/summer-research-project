@@ -1,0 +1,12 @@
+
+import effectLib
+
+// this is just invalid, because we haven't instantiated the module.
+def thing1(): {effectLib.coolEffect} Unit
+  unit
+
+val lib = effectLib()
+
+// this works fine.
+def thing2(): {lib.coolEffect} Unit
+  unit

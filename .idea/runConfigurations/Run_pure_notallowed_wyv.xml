@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Run pure/notallowed.wyv" type="Application" factoryName="Application">
+  <configuration default="false" name="Run pure/notallowed.wyv" type="Application" factoryName="Application" folderName="pure">
     <envs>
       <env name="WYVERN_HOME" value="../wyvern" />
     </envs>

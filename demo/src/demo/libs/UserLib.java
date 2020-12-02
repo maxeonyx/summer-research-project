@@ -8,8 +8,8 @@ public class UserLib {
 
     }
 
-    public void doOtherThing() {
-
+    public StuffContainer makeObject() {
+        return new StuffContainer();
     }
 
 }

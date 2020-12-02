@@ -1,0 +1,4 @@
+module def effectLib(): {}
+
+effect coolEffect = {system.FFI}
+
