@@ -1,5 +1,4 @@
 module lib
-
 import io.networkEffects
 def fn(): {networkEffects.Write} Unit
   unit

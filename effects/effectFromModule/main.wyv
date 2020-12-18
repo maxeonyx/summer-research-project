@@ -1,3 +1,4 @@
 import lib
 def thing(): {} Unit
   lib.fn()
+thing()
